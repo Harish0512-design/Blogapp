@@ -1,0 +1,15 @@
+
+
+h1{
+	font-family : cursive;
+}
+
+.date{
+	color : rgb(156, 245, 156);
+	font-family : cursive;
+}
+
+.current{
+	color : :rgb(0, 0, 0);
+	font-weight:bold;
+}

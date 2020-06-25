@@ -28,7 +28,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 DEBUG = (os.environ.get('DEBUG','') != 'False')
 
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['blogappsu.herokuapp.com']
 
 
 # Application definition

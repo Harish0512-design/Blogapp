@@ -25,10 +25,11 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = (os.environ.get('DEBUG') == 'False')
+DEBUG = False
 
 
-ALLOWED_HOSTS = ['*']
+
+ALLOWED_HOSTS = ['blogappsu.herokuapp.com']
 
 
 # Application definition

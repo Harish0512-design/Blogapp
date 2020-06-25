@@ -29,7 +29,7 @@ DEBUG = False
 
 
 
-ALLOWED_HOSTS = ['blogappsu.herokuapp.com']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
